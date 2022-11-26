@@ -1,11 +1,47 @@
-html {
-    background-color: aqua;
+
+body {
+    background-color: rgb(51, 51, 51);
+    margin-left: 0;
+    margin-right: 0;
+}
+/* NAVEGACION */
+header {
+    position: fixed !important;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    
 }
 
-#body {
-    background-color: rgb(54, 54, 54);
+#navegacion {
+    /*width: 100%;*/
+    display: flex;
+    background-color: bisque;
+    padding-top: 1em;
 }
 
-p {
-    color: red;
+.nav-logo {
+    width: 25%;
+}
+.nav-buscador {
+    text-align:  center;
+    width: 50%;
+}
+
+.nav-perfil {
+    width: 25%;
+}
+
+nav > div {
+    border: 2px solid #000;
+}
+
+/* SECTION */
+
+.section_principal {
+    display: flex;
+    width: 50%;
+    background-color: chocolate;
+    position: relative;
+    margin: 0 25%;
 }

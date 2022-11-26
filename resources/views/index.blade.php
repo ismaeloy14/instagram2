@@ -8,7 +8,17 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
     <title>Index</title>
 </head>
-<body id="body">
-    <p>Hola</p>
+<body>
+    <header>
+        <nav id="navegacion">
+            <div class="nav-logo">Logo</div>
+            <div class="nav-buscador">Buscador</div>
+            <div class="nav-perfil">Perfil, me gusta, explorar, etc</div>
+        </nav>
+    </header>
+
+    <section class="section_principal">
+        <div>HOLA</div>
+    </section>
 </body>
 </html>
